@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Poppins';
+    background-color: rgb(245, 239, 239);
+    display: flex;
+    justify-content: center;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.textos h2{
+    font-weight: 200;
+    font-size: 1.9rem;
+    color: var(--Very-Dark-Blue);
+}
+.textos h1{
+    font-weight: 600;
+}
+.textos p{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    font-size: 0.85rem;
+    width: 40%;
+    margin-top: 15px;
+}
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+.tarj-centrales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.trj1,.trj2,.trj3,.trj4{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.texto{
+    padding: 25px 35px;
+}
+.texto p{
+    width: 80%;
+}
+.texto1{
+    padding: 25px 35px;
+}
+.texto1 p{
+    width: 80%;
+}
+.texto2 {
+    padding: 25px 35px;
+}
+.texto2 p{
+    width: 90%;
+}
+.texto3 {
+    padding: 25px 35px;
+}
+.texto3 p{
+    width: 85%;
+}
+.tarjetas p{
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.tarjetas img{
+    display: inline;
+    float: right;
+    margin-top: 45px;
+    margin-right: 5px;
+}
+.trj1{
+    border-top: 4px solid var(--Cyan);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 420px;
+}
+.trj2{
+    border-top: 4px solid var(--Red);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 420px;
+}
+.trj3{
+    border-top: 4px solid var(--Orange);
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.trj4{
+    border-top: 4px solid var(--Blue);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 420px;
+}
+@media (max-width:1305px){
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .textos p{
+        font-size: 0.95rem;
+    }
+}
+
